@@ -74,28 +74,28 @@
 
                 game2_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  1  |  2  |  W  |  3  |  4  |   |     |      |     |     |     |      |
-// |      | CTRL|  A  |  S  |  D  |  F  |   |     |      |     |     |     |      |
-// |      | SHFT|  Z  |  X  |  C  |  V  |   |     |      |     |     |     |      |
+// |  ESC | TAB |  1  |  W  |  2  |  3  |   |     |      |     |     |     |      |
+// |      | CTRL|  A  |  S  |  D  |  4  |   |     |      |     |     |     |      |
+// |      | SHFT|  Z  |  X  |  C  |  5  |   |     |      |     |     |     |      |
 //                    |     |     | SPC |   |     |      |     |
                         label = "Game2";
                         bindings = <
-   &kp ESC &kp N1    &kp N2 &kp W &kp N3 &kp N4   &trans &trans &trans &trans &trans &trans
-   &trans  &kp LCTRL &kp A  &kp S &kp D  &kp F    &trans &trans &trans &trans &trans &trans
-   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp V    &trans &trans &trans &trans &trans &trans
+   &kp ESC &kp TAB   &kp N1 &kp W &kp N2 &kp N3   &trans &trans &trans &trans &trans &trans
+   &trans  &kp LCTRL &kp A  &kp S &kp D  &kp N4   &trans &trans &trans &trans &trans &trans
+   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp N5   &trans &trans &trans &trans &trans &trans
                         &trans &trans &kp SPACE   &trans &trans &trans
                         >;
                 };
 
                 game3_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  5  |  6  |  W  |  7  |  8  |   |     |      |     |     |     |      |
+// |  ESC | TAB |  6  |  W  |  7  |  8  |   |     |      |     |     |     |      |
 // |      | CTRL|  A  |  S  |  D  |  9  |   |     |      |     |     |     |      |
 // |      | SHFT|  Z  |  X  |  C  |  0  |   |     |      |     |     |     |      |
 //                    |     |     | SPC |   |     |      |     |
                         label = "Game3";
                         bindings = <
-   &kp ESC &kp N5    &kp N6 &kp W &kp N7 &kp N8   &trans &trans &trans &trans &trans &trans
+   &kp ESC &kp TAB   &kp N6 &kp W &kp N7 &kp N8   &trans &trans &trans &trans &trans &trans
    &trans  &kp LCTRL &kp A  &kp S &kp D  &kp N9   &trans &trans &trans &trans &trans &trans
    &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp N0   &trans &trans &trans &trans &trans &trans
                         &trans &trans &kp SPACE   &trans &trans &trans
