@@ -59,31 +59,31 @@
 
                 game_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC | TAB |  Q  |  W  |  E  |  R  |   |     |  UP  |     |     |     |      |
-// |      | CTRL|  A  |  S  |  D  |  F  |   | LFT |  DWN | RGT |     |     |      |
-// |      | SHFT|  Z  |  X  |  C  |  V  |   |     |      |     |     |     |      |
+// |  ESC | TAB |  1  |  W  |  2  |  3  |   |     |  UP  |     |     |     |      |
+// |      | CTRL|  A  |  S  |  D  |  4  |   | LFT |  DWN | RGT |     |     |      |
+// |      | SHFT|  Z  |  X  |  C  |  5  |   |     |      |     |     |     |      |
 //                    | GME3| GME2| SPC |   | GME |      |     |
                         label = "Game";
                         bindings = <
-   &kp ESC &kp TAB   &kp Q &kp W &kp E &kp R   &trans   &kp UP   &trans    &trans &trans &trans
-   &trans  &kp LCTRL &kp A &kp S &kp D &kp F   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans
-   &trans  &kp LSHFT &kp Z &kp X &kp C &kp V   &trans   &trans   &trans    &trans &trans &trans
-                       &mo 5 &mo 4 &kp SPACE   &tog 3 &trans &trans
+   &kp ESC &kp TAB   &kp N1 &kp W &kp N2 &kp N3   &trans   &kp UP   &trans    &trans &trans &trans
+   &trans  &kp LCTRL &kp A  &kp S &kp D  &kp N4   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans
+   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp N5   &trans   &trans   &trans    &trans &trans &trans
+                          &mo 5 &mo 4 &kp SPACE   &tog 3 &trans &trans
                         >;
                 };
 
                 game2_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC | TAB |  1  |  W  |  2  |  3  |   |     |      |     |     |     |      |
-// |      | CTRL|  A  |  S  |  D  |  4  |   |     |      |     |     |     |      |
-// |      | SHFT|  Z  |  X  |  C  |  5  |   |     |      |     |     |     |      |
+// |  ESC | TAB |  Q  |  W  |  E  |  R  |   |     |      |     |     |     |      |
+// |      | CTRL|  A  |  S  |  D  |  F  |   |     |      |     |     |     |      |
+// |      | SHFT|  Z  |  X  |  C  |  V  |   |     |      |     |     |     |      |
 //                    |     |     | SPC |   |     |      |     |
                         label = "Game2";
                         bindings = <
-   &kp ESC &kp TAB   &kp N1 &kp W &kp N2 &kp N3   &trans &trans &trans &trans &trans &trans
-   &trans  &kp LCTRL &kp A  &kp S &kp D  &kp N4   &trans &trans &trans &trans &trans &trans
-   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp N5   &trans &trans &trans &trans &trans &trans
-                        &trans &trans &kp SPACE   &trans &trans &trans
+   &kp ESC &kp TAB   &kp Q  &kp W &kp E  &kp R   &trans &trans &trans &trans &trans &trans
+   &trans  &kp LCTRL &kp A  &kp S &kp D  &kp F   &trans &trans &trans &trans &trans &trans
+   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp V   &trans &trans &trans &trans &trans &trans
+                       &trans &trans &kp SPACE   &trans &trans &trans
                         >;
                 };
 
