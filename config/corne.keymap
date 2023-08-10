@@ -61,13 +61,13 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC | TAB |  1  |  W  |  2  |  3  |   |     |  UP  |     |     |     |      |
 // |      | CTRL|  A  |  S  |  D  |  4  |   | LFT |  DWN | RGT |     |     |      |
-// |      | SHFT|  Z  |  X  |  C  |  5  |   |     |      |     |     |     |      |
+// |      | SHFT|  T  |  G  |  B  |  5  |   |     |      |     |     |     |      |
 //                    | GME3| GME2| SPC |   | GME |      |     |
                         label = "Game";
                         bindings = <
    &kp ESC &kp TAB   &kp N1 &kp W &kp N2 &kp N3   &trans   &kp UP   &trans    &trans &trans &trans
    &trans  &kp LCTRL &kp A  &kp S &kp D  &kp N4   &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans
-   &trans  &kp LSHFT &kp Z  &kp X &kp C  &kp N5   &trans   &trans   &trans    &trans &trans &trans
+   &trans  &kp LSHFT &kp T  &kp G &kp B  &kp N5   &trans   &trans   &trans    &trans &trans &trans
                           &mo 5 &mo 4 &kp SPACE   &tog 3 &trans &trans
                         >;
                 };
